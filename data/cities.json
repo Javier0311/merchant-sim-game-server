@@ -1,0 +1,114 @@
+[
+    {
+        "id": "oakhaven",
+        "name": "Oakhaven",
+        "economyType": "agriculture",
+        "position": {"top": "46%", "left": "54%"},
+        "population": 5000,
+        "connections": [
+            {
+                "targetId": "whispering",
+                "distance": 30,
+                "risk": 0.1
+            },
+            {
+                "targetId": "aethelgard",
+                "distance": 60,
+                "risk": 0.4
+            },
+            {
+                "targetId": "serpent",
+                "distance": 100,
+                "risk": 0.8
+            },
+            {
+                "targetId": "ember",
+                "distance": 120,
+                "risk": 0.9
+            }
+
+        ]
+
+    },
+
+    {
+        "id": "whispering",
+        "name": "The Whispering Woods",
+        "economyType": "forestry",
+        "position": {"top": "22%", "left": "44%"},
+        "population": 2000,
+        "connections": [
+            {
+                "targetId": "oakhaven",
+                "distance": 30,
+                "risk": 0.1
+            },
+            {
+                "targetId": "aethelgard",
+                "distance": 60,
+                "risk": 0.4
+            }
+        ]
+    },
+
+    {
+        "id": "aethelgard",
+        "name": "Aethelgard",
+        "economyType": "mining",
+        "position": {"top": "28%", "left": "18%"},
+        "population": 3500,
+        "connections": [
+            {
+                "targetId": "oakhaven",
+                "distance": 60,
+                "risk": 0.4
+            },
+            {
+                "targetId": "whispering",
+                "distance": 60,
+                "risk": 0.4
+            }
+        ]
+    },
+
+    {
+        "id": "serpent",
+        "name": "The Serpent Isles",
+        "economyType": "maritime",
+        "position": {"top": "32%", "left": "72%"},
+        "population": 1000,
+        "connections": [
+            {
+                "targetId": "oakhaven",
+                "distance": 100,
+                "risk": 0.8
+            },
+            {
+                "targetId": "ember",
+                "distance": 150,
+                "risk": 0.3
+            }
+        ]
+    },
+
+    {
+        "id": "ember",
+        "name": "Ember Cay",
+        "economyType": "luxury",
+        "position": {"top": "73%", "left": "84%"},
+        "population": 500,
+        "connections": [
+            {
+                "targetId": "oakhaven",
+                "distance": 120,
+                "risk": 0.9
+            },
+            {
+                "targetId": "serpent",
+                "distance": 150,
+                "risk": 0.3
+            }
+        ]
+    }
+
+]
