@@ -2,9 +2,10 @@
     {
         "id": "oakhaven",
         "name": "Oakhaven",
-        "economyType": "agriculture",
+        "economyType": "Agriculture",
         "position": {"top": "46%", "left": "54%"},
         "population": 5000,
+        "description": "The kingdom's breadbasket. A walled trade hub surrounded by golden fields and river routes.",
         "connections": [
             {
                 "targetId": "whispering",
@@ -34,9 +35,10 @@
     {
         "id": "whispering",
         "name": "The Whispering Woods",
-        "economyType": "forestry",
+        "economyType": "Forestry",
         "position": {"top": "22%", "left": "44%"},
         "population": 2000,
+        "description": "A rustic settlement hidden among ancient pines. The air smells of sawdust and old magic.",
         "connections": [
             {
                 "targetId": "oakhaven",
@@ -54,9 +56,10 @@
     {
         "id": "aethelgard",
         "name": "Aethelgard",
-        "economyType": "mining",
+        "economyType": "Mining",
         "position": {"top": "28%", "left": "18%"},
         "population": 3500,
+        "description": "An industrial fortress carved into living rock. The sound of hammers never ceases here.",
         "connections": [
             {
                 "targetId": "oakhaven",
@@ -74,9 +77,10 @@
     {
         "id": "serpent",
         "name": "The Serpent Isles",
-        "economyType": "maritime",
+        "economyType": "Maritime",
         "position": {"top": "32%", "left": "72%"},
         "population": 1000,
+        "description": "A treacherous archipelago ruled by sailors and pirates. Beware of what lurks beneath the waves.",
         "connections": [
             {
                 "targetId": "oakhaven",
@@ -94,9 +98,10 @@
     {
         "id": "ember",
         "name": "Ember Cay",
-        "economyType": "luxury",
+        "economyType": "Luxury",
         "position": {"top": "73%", "left": "84%"},
         "population": 500,
+        "description": "A dangerous tropical paradise in the shadow of an active volcano. Land of gems and spice.",
         "connections": [
             {
                 "targetId": "oakhaven",

@@ -1,0 +1,25 @@
+{
+  "name": "merchant-sim-game-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Javier0311/merchant-sim-game-server.git"
+  },
+  "keywords": [],
+  "author": "Javier Nieto",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Javier0311/merchant-sim-game-server/issues"
+  },
+  "homepage": "https://github.com/Javier0311/merchant-sim-game-server#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.2.1"
+  }
+}
