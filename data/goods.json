@@ -1,0 +1,43 @@
+[
+    {
+        "id": "iron",
+        "name": "Iron",
+        "basePrice": 50,
+        "description": "Strong metal for weapons and tools."
+    },
+
+    {
+        "id": "wood",
+        "name": "Wood",
+        "basePrice": 30,
+        "description": "Basic material for building structures."
+    },
+
+    {
+        "id": "wheat",
+        "name": "Wheat",
+        "basePrice": 20,
+        "description": "Essential food for the people."
+    },
+
+    {
+        "id": "stone",
+        "name": "Stone",
+        "basePrice": 30,
+        "description": "Hard blocks used for strong walls."
+    },
+
+    {
+        "id": "gems",
+        "name": "Gems",
+        "basePrice": 200,
+        "description": "Very valuable and shiny stones."
+    },
+
+    {
+        "id": "spices",
+        "name": "Spices",
+        "basePrice": 100,
+        "description": "Rare and tasty ingredients for cooking."
+    }
+]
