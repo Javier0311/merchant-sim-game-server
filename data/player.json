@@ -1,6 +1,26 @@
 {
-    "name": "Captain Borin",
-    "gold": 1000,
-    "inventory": {},
-    "merchants": []
+  "name": "Captain Borin",
+  "gold": 1000,
+  "inventory": {
+    "wood": 0,
+    "iron": 0,
+    "wheat": 0,
+    "stone": 0,
+    "gems": 0,
+    "spices": 0
+  },
+  "merchants": [
+    {
+      "name": "Garrick Thorne",
+      "hire": false
+    },
+    {
+      "name": "Lyra Vane",
+      "hire": false
+    },
+    {
+      "name": "Tony Vander",
+      "hire": false
+    }
+  ]
 }
