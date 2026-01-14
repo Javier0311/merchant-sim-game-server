@@ -12,15 +12,57 @@
   "merchants": [
     {
       "name": "Garrick Thorne",
-      "hire": false
+      "hire": false,
+      "free": true,
+      "capacity": 90,
+      "currentLocation": "oakhaven",
+      "status": "idle",
+      "destination": null,
+      "arrivalTime": null,
+      "inventory": {
+        "wood": 0,
+        "iron": 0,
+        "wheat": 0,
+        "stone": 0,
+        "gems": 0,
+        "spices": 0
+      }
     },
     {
       "name": "Lyra Vane",
-      "hire": false
+      "hire": false,
+      "free": true,
+      "capacity": 100,
+      "currentLocation": "oakhaven",
+      "status": "idle",
+      "destination": null,
+      "arrivalTime": null,
+      "inventory": {
+        "wood": 0,
+        "iron": 0,
+        "wheat": 0,
+        "stone": 0,
+        "gems": 0,
+        "spices": 0
+      }
     },
     {
       "name": "Tony Vander",
-      "hire": false
+      "hire": false,
+      "free": true,
+      "capacity": 120,
+      "currentLocation": "oakhaven",
+      "status": "idle",
+      "destination": null,
+      "arrivalTime": null,
+      "inventory": {
+        "wood": 0,
+        "iron": 0,
+        "wheat": 0,
+        "stone": 0,
+        "gems": 0,
+        "spices": 0
+      }
     }
   ]
 }

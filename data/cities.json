@@ -15,17 +15,17 @@
             {
                 "targetId": "aethelgard",
                 "distance": 60,
-                "risk": 0.4
+                "risk": 0.3
             },
             {
                 "targetId": "serpent",
                 "distance": 100,
-                "risk": 0.8
+                "risk": 0.6
             },
             {
                 "targetId": "ember",
                 "distance": 120,
-                "risk": 0.9
+                "risk": 0.5
             }
 
         ]
@@ -48,7 +48,7 @@
             {
                 "targetId": "aethelgard",
                 "distance": 60,
-                "risk": 0.4
+                "risk": 0.3
             }
         ]
     },
@@ -64,12 +64,12 @@
             {
                 "targetId": "oakhaven",
                 "distance": 60,
-                "risk": 0.4
+                "risk": 0.3
             },
             {
                 "targetId": "whispering",
                 "distance": 60,
-                "risk": 0.4
+                "risk": 0.3
             }
         ]
     },
@@ -85,7 +85,7 @@
             {
                 "targetId": "oakhaven",
                 "distance": 100,
-                "risk": 0.8
+                "risk": 0.6
             },
             {
                 "targetId": "ember",
@@ -106,7 +106,7 @@
             {
                 "targetId": "oakhaven",
                 "distance": 120,
-                "risk": 0.9
+                "risk": 0.6
             },
             {
                 "targetId": "serpent",
